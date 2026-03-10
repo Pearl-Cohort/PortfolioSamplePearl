@@ -23,7 +23,7 @@
 
     <header class="header">
         <nav class="container navbar">
-            <h3><a href="/">Double D</a></h3>
+            <h3><a href="/"><span>.</span>Double D</a></h3>
 
             <div class="header-links">
                 <a class="navlink" href="/">Home</a>
@@ -64,29 +64,79 @@
                                 <li><a href="contact.html" class="btn btn-secondary">Let's Talk</a></li>
                             </ul>
 
-                            <ul class="hero-btn">
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                                <!-- <li><a href="/assets/images/square-linkedin-brands-solid-full.svg" target="_blank"></a></li> -->
-
-
+                            <ul class="hero-socials">
+                                <li>
+                                    <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </li>
                             </ul>
                         </div>
 
                     </div>
 
-                    <img class="hero-image" src="/assets/images/profile.png" alt="" width="400">
+                    <img class="hero-image" src="/assets/images/avatar.png" alt="" width="400">
                 </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h3 class="skills-title">Skills</h3>
+            <div class="skills">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <div class="skill-text">
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive and beautiful interfaces.</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="skill-text">
+                        <h3>Frontend</h3>
+                        <p>Modern React and Tailwind architectures.</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="skill-text">
+                        <h3>Backend Development</h3>
+                        <p>Scalable logic and clean codebases.</p>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-figma"></i>
+                    </div>
+                    <div class="skill-text">
+                        <h3>Figma</h3>
+                        <p>Prototyping and design systems</p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
 
         <!-- Projects Section -->
-        <section class="container">
+        <section class="projects container">
             <h3 id="project" class="projects">Projects</h3>
 
             <div class="project-category">
-                <span>All</span>
+                <span class="">All</span>
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
@@ -218,9 +268,9 @@
         </section>
 
         <!-- Testimonial Section -->
-         <section class="testimonial-section">
-            
-         </section>
+        <section class="testimonial-section">
+
+        </section>
 
 
         <!-- Contact Section -->
@@ -229,30 +279,30 @@
 
             <div class="contact-wrapper">
                 <form action="">
-                
+
                     <label for="username">Username</label>
                     <br>
                     <input type="text" id="username" placeholder="Enter your username" required>
-                
+
                     <br><br>
-                
+
                     <label for="email">Email</label><br>
                     <input type="email" name="email" id="email">
-                
+
                     <br><br>
-                
+
                     <label for="phone">Phone</label><br>
                     <input type="tel" name="phone" id="phone">
-                
+
                     <br><br>
                     <label for="message">Message</label><br>
                     <textarea name="message" id="message" placeholder="Enter your message"></textarea>
-                
+
                     <br><br>
                     <!-- Button -->
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
-                
+
                 <div class="contact-details">
                     <p>Phone: 08012345678</p>
                     <p>Address: 42 Montgomery Street. Yaba Lagos</p>
@@ -269,5 +319,6 @@
 
 
 </body>
+<script src="script.js"></script>
 
 </html>
